@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* TopPage(index.html)限定の指定を記載 */
+
+/* ItemList */
+.genre_list li{
+	width: 50%;
+}

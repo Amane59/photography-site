@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>APPLE BERRY</title>
+<title>Aran Photography</title>
 <meta name="description" content="AranのPhotographyサイトです。">
 <meta name="keywords" content="photography,写真,portfolio,ポートフォリオ">
 <meta name="author" content="Aran">
@@ -16,7 +16,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Script-Type" content="text/javascript;">
 <meta http-equiv="Content-Style-Type" content="text/css;">
-<link rel="stylesheet" href="./css/skelton.css">
 <link rel="stylesheet" href="./css/sp_input_top.css" media="(max-width: 549px)">
 <link rel="stylesheet" href="./css/pc_input_top.css" media="print,screen and (min-width: 550px)">
 <link rel="home" href="./" title="Aran Photography">
@@ -26,54 +25,72 @@
     
 <header class="container">
   <div class="title">
-    <h1 id="site-title" class="four columns">Aran Photography</h1>
+    <h1 id="SITE-TITLE" class="four columns">Aran Photography</h1>
   </div>
 </header>
-<main>
-    <div id="main" class="nine columns">
+
+<main class="container">
+  <section class="row">  
+    <div id="MAIN" class="twelve columns">
       <ul id="CAROUSEL_SLIDER" class="owl-carousel owl-theme">
         <li><img src="./images/top/angkor_wat_1.jpg" alt="image"></li>
         <li><img src="./images/top/banksy_1.jpg" alt="image"></li>
         <li><img src="./images/top/cambosia_food_1.jpg" alt="image"></li>
         <li><img src="./images/top/Ha_Long_Bay_1.jpg" alt="image"></li>
       </ul>
+    
+    <div id="GENRE_LIST" class="genre_list">
+      <ul class="clearfix">
+        <li>
+          <a href="./town.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt="banksy"></div>
+          <div class="genre">TOWN</div>
+          </a>
+        </li>
+        <li>
+          <a href="./landscape.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt=""></div>
+          <div class="genre">LANDSCAPE</div>
+          </a>
+        </li>
+        <li>
+          <a href="./heritage.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt=""></div>
+          <div class="genre">HERITAGE</div>
+          </a>
+        </li>
+        <li>
+          <a href="./food.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt=""></div>
+          <div class="genre">FOOD</div>
+          </a>
+        </li>
+        <li>
+          <a href="./graffiti.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt=""></div>
+          <div class="genre">GRAFFITI</div>
+          </a>
+        </li>
+        <li>
+          <a href="./artwork.html">
+          <div class="genre_image"><img src="./images/banksy_1.jpg" alt=""></div>
+          <div class="genre">ARTWORK</div>
+          </a>
+        </li>
+      </ul>
     </div>
-    <div id="content">
-          <div class="flex-container">
-            <h2 class="text-center">TOWN</h2><a href="https://"></a>
-          </div>
-          <div class="flex-container">
-            <h2 class="text-center">LANDSCAPE</h2><a href="https://"></a>
-          </div>
-          <div class="flex-container">
-            <h2 class="text-center">HERITAGE</h2><a href="https://"></a>
-          </div>
-          <div class="flex-container">
-            <h2 class="text-center">FOOD</h2><a href="https://"></a>
-          </div>
-          <div class="flex-container">
-            <h2 class="text-center">GRAFFITI</h2><a href="https://"></a>
-          </div>
-          <div class="flex-container">
-            <h2 class="text-center">ARTWORK</h2><a href="https://"></a>
-          </div>
     </div>
+  </section>
 </main>
 
 <footer class="container">
-  <div id="Area" class="row twelve columns">
-    <li><a href="https://www..com/"title="Europe"></a></li>
-    <li><a href="https://www..com/"title="Twitter"></a></li>
-    
+  <div id="AREA" class="row twelve columns">
+    <li><a href="https://www.com/" title="Europe">Europe</a></li>
+    <li><a href="https://www.com/" title="Asia">Asia</a></li>
   </div>    
   <div class="row twelve columns">
-    <nav class="eight columns">
-      <ul id="SP_MENU">
-        <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-      </ul>
-
-      <ul id="PC_MENU">
+    <nav class="twelve columns">
+      <ul id="ACCOUNT_MENU">
         <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
         <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       </ul>
@@ -86,6 +103,12 @@
 <script src="./owl.carousel.2.1.0/owl.carousel.min.js"></script>
 <!-- カルーセルスライダーを使うための追加のスクリプトを読み込む -->
 <script src="./owl.carousel.2.1.0/owl.carousel.action.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+
 
 </body>
 </html>
